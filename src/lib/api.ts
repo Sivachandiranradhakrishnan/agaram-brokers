@@ -23,7 +23,7 @@ export const apiBaseUrl =
   rawBase ||
   (typeof window !== "undefined" && window.location.port === "4000"
     ? ""
-    : "http://localhost:4000");
+    : "https://agaram-brokers.onrender.com";);
 
 /** Fallback data used when the backend is not running (e.g. static preview). */
 export const fallbackServices: Service[] = [
