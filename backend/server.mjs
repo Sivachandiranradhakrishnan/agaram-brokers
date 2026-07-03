@@ -390,4 +390,5 @@ createServer(async (request, response) => {
     sendJson(response, 500, { error: "Server error." });
   }
 }).listen(port, () => {
-console.log(`Agaram Brokers backend running on http://localhost:${port}`);
+  console.log(`Agaram Brokers backend running on http://localhost:${port}`);
+});
